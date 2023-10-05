@@ -19,7 +19,6 @@ int main()
         parcelas = 3;
     } else {
         valorCompraTotal = valorCompra * 1.1;
-        parcelas = 2;
     }
 
     printf("Número de parcelas: %d\n", parcelas);

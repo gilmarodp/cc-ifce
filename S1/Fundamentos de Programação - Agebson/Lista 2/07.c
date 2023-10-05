@@ -5,7 +5,7 @@ int main()
     float salario = 0.0;
     int funcao = 0;
 
-    printf("Digite seu salario: ");
+    printf("Digite seu salario atual: ");
     scanf("%f", &salario);
 
     printf("Qual é sua função:");

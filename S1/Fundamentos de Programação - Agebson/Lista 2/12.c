@@ -9,7 +9,7 @@ int main()
     printf("Digite o tipo do apartamento (A, B, C ou D): ");
     scanf(" %c", &tipoApartamento);
 
-    printf("Digite a quantidade de dias que você irá passar: ");
+    printf("Digite a quantidade de dias que você passou: ");
     scanf("%d", &diarias);
 
     printf("Digite o valor do seu consumo interno: ");

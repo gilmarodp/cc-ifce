@@ -17,7 +17,7 @@ int main()
     else if (tipo == 3) valorTotal = 350 + 50;
     else valorTotal = 350 - 20;
 
-    printf("Você deve pagar de condomínio o seguinte valor: R$ %.2f\n", valorTotal);    
+    printf("Você deve pagar de condomínio o seguinte valor: R$ %.2f\n", valorTotal);
 
     return 0;
 }

@@ -3,7 +3,7 @@
 int main()
 {
     int n1 = 0, n2 = 0;
-    char operacao = '+';
+    char operacao;
 
     printf("Digite um número: ");
     scanf("%d", &n1);

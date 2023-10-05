@@ -2,8 +2,7 @@
 
 int main()
 {
-    float valorSalario = 0.0, valorFinanciamento = 0.0, valorSalarioConjuge = 0.0;
-    int financiamentoPorSalario = 0;
+    float valorSalario = 0.0, valorFinanciamento = 0.0, valorSalarioConjuge = 0.0, financiamentoPorSalario = 0.0;
 
     printf("Digite o valor do seu salário: ");
     scanf("%f", &valorSalario);
@@ -24,7 +23,7 @@ int main()
         if (financiamentoPorSalario <= 5) {
             printf("Financiamento concedido");
         } else {
-            printf("Financiamento Negado");
+            printf("Financiamento negado");
         }
     }
     
