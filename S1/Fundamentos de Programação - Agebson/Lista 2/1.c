@@ -8,6 +8,8 @@
 
 #include <stdio.h>
 
+// ola mundo
+
 int main()
 {
     float valorTotal = 0;
