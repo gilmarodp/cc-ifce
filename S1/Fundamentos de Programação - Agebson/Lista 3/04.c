@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float num1 = 0, num2 = 0, valorFinal = 0;
+    float num1 = 0.0, num2 = 0.0, valorFinal = 0.0;
     int operacao = 0;
 
     printf("Digite um número: ");
@@ -19,18 +19,18 @@ int main() {
 
     switch (operacao)
     {
-    case 1:
-        valorFinal = num1 + num2;
-        break;
-    case 2:
-        valorFinal = num1 - num2;
-        break;
-    case 3:
-        valorFinal = num1 * num2;
-        break;
-    case 4:
-        valorFinal = num1 / num2;
-        break;
+        case 1:
+            valorFinal = num1 + num2;
+            break;
+        case 2:
+            valorFinal = num1 - num2;
+            break;
+        case 3:
+            valorFinal = num1 * num2;
+            break;
+        case 4:
+            valorFinal = num1 / num2;
+            break;
     }
 
     printf("\n\nValor final: %.2f\n", valorFinal);

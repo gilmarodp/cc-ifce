@@ -12,8 +12,7 @@ void cabecalho() {
   printf("######################################\n\n");
 }
 
-int random_int(int min, int max)
-{
+int random_int(int min, int max) {
   srand(time(NULL));
   return min + rand() % (max+1 - min);
 }
@@ -30,29 +29,29 @@ int main() {
     printf("3 - Difícil (3 tentativas)\n\n>: ");
     scanf("%d", &dificuldade);
 
-    printf("Defina um número positivo mínimo para o chute: ");
+    printf("Defina um número positivo mínimo para o número secreto: ");
     scanf("%d", &minNumeroSecreto);
 
-    printf("Defina um número positivo máximo para o chute: ");
+    printf("Defina um número positivo máximo para o número secreto: ");
     scanf("%d", &maxNumeroSecreto);
     
     numeroSecreto = random_int(minNumeroSecreto, maxNumeroSecreto);
 
     switch (dificuldade)
     {
-    case 1:
-      tentativas = FACIL_TENTATIVAS;
-      break;
-    case 2:
-      tentativas = MEDIO_TENTATIVAS;
-      break;
-    case 3:
-      tentativas = DIFICIL_TENTATIVAS;
-      break;
-    
-    default:
-      tentativas = MEDIO_TENTATIVAS;
-      break;
+      case 1:
+        tentativas = FACIL_TENTATIVAS;
+        break;
+      case 2:
+        tentativas = MEDIO_TENTATIVAS;
+        break;
+      case 3:
+        tentativas = DIFICIL_TENTATIVAS;
+        break;
+      
+      default:
+        tentativas = MEDIO_TENTATIVAS;
+        break;
     }
 
     for (int i = 1; i <= tentativas; i++) {
